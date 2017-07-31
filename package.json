@@ -3,5 +3,7 @@
   "version": "0.1.0",
   "description": "Rollup plugin to alias module specifiers.",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/JeremyRH/rollup-plugin-alias-module-specifiers.git",
+  "author": "jeremyrh <holcomb227@gmail.com>"
 }
