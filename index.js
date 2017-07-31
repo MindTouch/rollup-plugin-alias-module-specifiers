@@ -1,4 +1,4 @@
-import { posix as path } from 'path';
+const posix = require('path').posix;
 
 function getAlias(moduleSpecifier, aliases) {
     const longestMatchingKey = Object.keys(aliases).reduce((matchingKey, key) => {
@@ -14,7 +14,7 @@ function getAlias(moduleSpecifier, aliases) {
     }
 }
 
-export default function aliasModuleSpecifiers(aliases) {
+exports['default'] = function aliasModuleSpecifiers(aliases) {
     return {
         name: 'alias-module-specifier',
         resolveId(importee, importer) {
@@ -26,4 +26,5 @@ export default function aliasModuleSpecifiers(aliases) {
             return null;
         }
     };
-}
+};
+module.exports = exports['default'];
