@@ -14,7 +14,7 @@ function getAlias(moduleSpecifier, aliases) {
     }
 }
 
-export default function aliasModuleSpecifier(aliases) {
+export default function aliasModuleSpecifiers(aliases) {
     return {
         name: 'alias-module-specifier',
         resolveId(importee, importer) {

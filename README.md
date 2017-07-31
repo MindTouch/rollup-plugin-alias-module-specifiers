@@ -28,11 +28,11 @@ import aliasModuleSpecifier from 'rollup-plugin-alias-module-specifiers';
 export default {
     entry: 'index.js',
     plugins: [
-        aliasModuleSpecifier({
+        aliasModuleSpecifiers({
             'utility/': './third-party/some-util/'
         })
     ]
 };
 ```
 
-The options passed to `aliasModuleSpecifier` are used to match the specifier by key and replace it with the given value. Keys must match from the start of the specifier and only the matched part is replaced.
+The options passed to `aliasModuleSpecifiers` are used to match the specifier by key and replace it with the given value. Keys must match from the start of the specifier and only the matched part is replaced.
