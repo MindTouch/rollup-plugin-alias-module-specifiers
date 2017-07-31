@@ -1,7 +1,7 @@
 rollup-plugin-alias-module-specifier
 ===
 
-Rollup plugin for aliasing module specifiers (named specifiers and paths).
+Rollup plugin to alias module specifiers (named specifiers and paths).
 
 # install
 ```
