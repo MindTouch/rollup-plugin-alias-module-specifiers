@@ -1,11 +1,11 @@
-rollup-plugin-alias-module-specifier
+rollup-plugin-alias-module-specifiers
 ===
 
 Rollup plugin to alias module specifiers (named specifiers and paths).
 
 # install
 ```
-$ npm install -D rollup-plugin-alias-module-specifier
+$ npm install -D rollup-plugin-alias-module-specifiers
 ```
 
 # example
@@ -23,7 +23,7 @@ import tool from './third-party/some-utils/tool.js';
 with a rollup config of
 
 ```js
-import aliasModuleSpecifier from 'rollup-plugin-alias-module-specifier';
+import aliasModuleSpecifier from 'rollup-plugin-alias-module-specifiers';
 
 export default {
     entry: 'index.js',
