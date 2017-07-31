@@ -1,0 +1,7 @@
+{
+  "name": "rollup-plugin-alias-module-specifiers",
+  "version": "0.1.0",
+  "description": "Rollup plugin for aliasing module specifiers.",
+  "main": "index.js",
+  "license": "MIT"
+}
