@@ -1,4 +1,4 @@
-const posix = require('path').posix;
+const path = require('path').posix;
 
 function getAlias(moduleSpecifier, aliases) {
     const longestMatchingKey = Object.keys(aliases).reduce((matchingKey, key) => {
