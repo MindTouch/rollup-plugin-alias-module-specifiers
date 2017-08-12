@@ -23,7 +23,7 @@ import tool from './third-party/some-utils/tool.js';
 with a rollup config of
 
 ```js
-import aliasModuleSpecifier from 'rollup-plugin-alias-module-specifiers';
+import aliasModuleSpecifiers from 'rollup-plugin-alias-module-specifiers';
 
 export default {
     entry: 'index.js',
