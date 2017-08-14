@@ -1,9 +1,9 @@
 {
   "name": "rollup-plugin-alias-module-specifiers",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Rollup plugin to alias module specifiers.",
   "main": "index.js",
   "license": "MIT",
-  "repository": "https://github.com/MindTouch/rollup-plugin-alias-module-specifiers",
+  "repository": "https://github.com/MindTouch/rollup-plugin-alias-module-specifiers.git",
   "author": "jeremyrh <holcomb227@gmail.com>"
 }
